@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take it Cheesy</title>
+    <link rel="stylesheet" href="task4_fe.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><center>Take it Cheesy</center></h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="landing">
+            <div class="container">
+                <h1>Welcome Chewsy Eaters!</h1>
+                <p>Experience the best dining experience in town!</p>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <div class="menu-items">
+                    <div class="menu-item" data-preview="Kick off your meal in style with our selection of starters!">
+                        <h3>Appetizers</h3>
+                        <ul>
+                            <li>Bruschetta</li>
+                            <li>Caprese Salad</li>
+                            <li>Garlic Shrimp</li>
+                        </ul>
+                    </div>
+                    <div class="menu-item" data-preview="Discover our most popular main courses!">
+                        <h3>Main Courses</h3>
+                        <ul>
+                            <li>Grilled Salmon</li>
+                            <li>Chicken Parmesan</li>
+                            <li>Eggplant Lasagna</li>
+                        </ul>
+                    </div>
+                    <div class="menu-item" data-preview="Indulge in our decadent desserts!">
+                        <h3>Desserts</h3>
+                        <ul>
+                            <li>Tiramisu</li>
+                            <li>Cheesecake</li>
+                            <li>Gelato</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are passionate about delivering exceptional dining experiences to our guests. Our chefs use only the freshest ingredients to create delicious dishes that will tantalize your taste buds.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Take it Cheesy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
