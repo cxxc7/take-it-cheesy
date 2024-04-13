@@ -20,6 +20,14 @@ ThematicRestaurantWebsite/
 ├── index.html
 ├── styles.css
 ├── images/
+header background image
+
+![image](https://github.com/cxxc7/take-it-cheesy/assets/153350080/2374c5a1-bc27-4459-915d-b56014bc17a5)
+body background image 
+
+![image](https://github.com/cxxc7/take-it-cheesy/assets/153350080/80a073f2-0bd0-41f8-bc9c-844f8f74dcb2)
+
+
 │   ├── appetizers.jpg
 │   ├── main-courses.jpg
 │   ├── desserts.jpg
