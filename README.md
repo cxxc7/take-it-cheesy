@@ -15,7 +15,7 @@ About Us: Learn about the restaurant's history, mission, and values.
 Contact Us: Reach out to the restaurant via a contact form for inquiries, reservations, or feedback.
 Folder Structure
 
-ThematicRestaurantWebsite/
+ThematicRestaurantWebsite/    
 │
 ├── index.html
 ├── styles.css
@@ -24,7 +24,7 @@ ThematicRestaurantWebsite/
 │   ├── main-courses.jpg
 │   ├── desserts.jpg
 │   └── ...
-│
+│  
 └── ...
 Screenshots
 ![Screenshot (31)](https://github.com/cxxc7/take-it-cheesy/assets/153350080/949a7c81-dafd-4d38-8097-8c9924aa0721)
