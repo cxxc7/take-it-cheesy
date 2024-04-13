@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Theme Background Color */
+    color: #333; /* Default Text Color */
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/premium-photo/gradient-soft-pink-lilac-abstract-background_901408-841.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712361600&semt=ais'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the background image */
+}
+
+.container {
+    max-width: 90%; /* Increase the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add padding to the left and right sides */
+}
+
+
+header {
+    background-image: url('https://c0.wallpaperflare.com/preview/565/228/846/japanese-japan-restaurant-culture.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the background image */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+header h1 {
+    color: #fff;
+    font-size: 24px; /* Adjust the font size to a suitable value */
+    margin: 0;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Highlight Color on Hover */
+}
+
+main {
+    padding: 20px 0;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    position: relative; /* Ensure z-index positioning context */
+    width: calc(33.33% - 20px);
+    background-color: #fff; /* Menu Item Background Color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item h3 {
+    margin-bottom: 10px;
+}
+
+.menu-item ul {
+    padding-left: 20px;
+}
+
+.menu-item ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+/* Preview Styling */
+.menu-item::before {
+    content: attr(data-preview);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Background Color with Opacity */
+    color: #333; /* Text Color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Initially Hidden */
+    transition: opacity 0.3s ease;
+}
+
+.menu-item:hover::before {
+    opacity: 1; /* Show on Hover */
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+.contact form input[type="text"]:focus,
+.contact form input[type="email"]:focus,
+.contact form textarea:focus {
+    border-color: #ffc107; /* Highlight Color on Focus */
+}
+
+.contact form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+    background-color: #e0a800; /* Darker Highlight Color on Hover */
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
